@@ -1,2 +1,3 @@
-# Cluster_Id_Prediction-Test-
-Machine learning models for Data analysis in AWS
+Multi-class classification modeling using companies financial dataset
+
+
