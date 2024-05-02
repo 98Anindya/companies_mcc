@@ -17,18 +17,28 @@ Multi-class classification modeling using companies financial dataset.
 
 ### Data Exploration
 * #TODO: write about the final EDA outcome
+* Code File - EDA_Outlier_Removal.ipynb [Purpose- Contains Graphical representations of the variables before and after outlier removal is perfromed on the original data i.e 'tab_data.csv' ]
+* Code File - EDA.ipynb [Purpose - Contains Exploratory Data analytics performed at various stages of problem solving to better understand and evaluate the data ]
+* 
 
 ## Modeling
 
 ### Modeling Trials & Iterations
 #### Trial-1 
-* Description from EDA till modeling...
+* Code File - 1_Multi_Class_Classification_Original.ipynb [Purpose - To deploy and test Multi Class Classification Models on the Original Data ]
+* Data File Used - `tab_data.csv`
 #### Trial-2
-* Trial-2 description from EDA till modeling...
+* Code File - 2_Multi_Class_Classification_Modified.ipynb  [Purpose - To deploy and test Multi Class Classification Models on the Cleaned Data (Data cleaning performed on the original data to get new dataset ) ]
+* Data File Used - 'Modified_1.csv'
 #### Trial-3
-* Trial-3 description from EDA till modeling...
+* Code File - 3_New_Test_Main.ipynb [Purpose - To deploy and test Multi Class Classification Models on the Bottstrapped version of Original Data (To address the problem of class imbalnce each sample has 1200 data points )]
+* Data File Used - 'Modified_tab_data.csv'
 #### Final or Current state
-* Trial-4 (Final) description from EDA till modeling...
+* Code File - 4a_New_Test_Modified_Cleaned_1.ipynb[Purpose - To deploy and test Multi Class Classification Models on the Bottstrapped version of Cleaned Data (To address the problem of class imbalnce each sample has 1200 data points )]
+* Data File Used - 'Modified_Cleaned_1.csv'
+
+* Code File - 4b_Multi_Class_Classification_Minimum.ipynb [Purpose - To deploy and test Multi Class Classification Models to address the class imbalance problem without bootstrapping by selecting the minimum number of datapoints possible for all unique classes in case or the original and cleaned datasets  ]
+* Data Files Used - Modified_minimal.csv & 'Modified_Cleaned_minimal.csv'
   
 ### Feature Engineering
 ### Model Training
