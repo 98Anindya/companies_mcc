@@ -44,11 +44,11 @@ Multi-class classification modeling using companies financial dataset.
 
 ### Model Training
 
-*Multi Class Classification Models Used - Xgboost , Catboost , Random Forest Classifier
+* Multi Class Classification Models Used - Xgboost , Catboost , Random Forest Classifier
 
 ### Model Evaluation
 
-*We see significant increase in the accuracy metric of the models as we progress from Trial 1 to Trial 4 . For example for Trial 1 , we observe the accuracy metrics to be Random Forest Evaluation(Accuracy: 0.6935) / XGBoost Evaluation(Accuracy: 0.7641)/CatBoost Evaluation(Accuracy: 0.7399) . For Trial 4 (Case 4a) we find the accuracy metrics to be Random Forest Evaluation(Accuracy: 0.9430555555555555) /XGBoost Evaluation(Accuracy: 0.94)/CatBoost Evaluation(Accuracy: 0.9777777777777777)
+* We see significant increase in the accuracy metric of the models as we progress from Trial 1 to Trial 4 . For example for Trial 1 , we observe the accuracy metrics to be Random Forest Evaluation(Accuracy: 0.6935) / XGBoost Evaluation(Accuracy: 0.7641)/CatBoost Evaluation(Accuracy: 0.7399) . For Trial 4 (Case 4a) we find the accuracy metrics to be Random Forest Evaluation(Accuracy: 0.9430555555555555) /XGBoost Evaluation(Accuracy: 0.94)/CatBoost Evaluation(Accuracy: 0.9777777777777777)
 
 
 ### Notes
