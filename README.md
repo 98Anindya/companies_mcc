@@ -54,5 +54,5 @@ Multi-class classification modeling using companies financial dataset.
 ### Notes
 
 * While evaluating the file , "Modified_Cleaned_1.csv" which was generated through bootstrapping to solve the Class imbalance problem observed , it is noticed that there is significant duplication of data . This could lead to overfitting and inaccuracies . Further investigation reveals that employment of SMOTE technique might help to resolve this issue without the inaccuracies (Yet to be deployed )
-* Feature Engineering was explored , and had resulted in slight increase in accuracy but was not implemented in scale . 
+* Feature Engineering was explored , and had resulted in slight increase in accuracy but was not implemented fully . The file "Case1.ipynb" orking on the data files "type_1.csv","type_2.csv","type_3.csv","type_4.csv" is a work in progress based on feature enginerring and its variations (based on the correlation values and creation of interaction terms ) . 
 
